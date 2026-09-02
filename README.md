@@ -1,57 +1,81 @@
-# API de Gerenciamento de Livros
+# 📚 API de Gerenciamento de Livros
 
-Projeto desenvolvido para a criação de uma aplicação web de gerenciamento de livros, utilizando Python, FastAPI, MySQL, HTML, CSS e JavaScript.
+> 🎓 Projeto desenvolvido durante as aulas de desenvolvimento de APIs e aplicações web.
 
-O projeto é desenvolvido de forma gradual, começando pela configuração da API e do banco de dados, passando pela implementação das operações CRUD e finalizando com uma interface web capaz de consumir a API.
+Este projeto tem como objetivo desenvolver, de forma progressiva, uma **aplicação web para gerenciamento de livros**, começando pela criação de uma API e sua integração com um banco de dados MySQL, até chegar a uma interface completa no navegador.
 
----
-
-## Objetivo do Projeto
-
-Construir uma aplicação web para gerenciamento de livros, permitindo cadastrar, consultar, atualizar e excluir livros por meio de uma API desenvolvida com FastAPI e conectada a um banco de dados MySQL.
-
-Ao longo das etapas, também será desenvolvida uma interface no navegador utilizando HTML, CSS e JavaScript, que consumirá a API através do método `fetch`.
+Ao longo das etapas, serão trabalhados conceitos de **Backend, Banco de Dados, APIs REST, Frontend, Git e GitHub**.
 
 ---
 
-## Objetivos de Aprendizagem
+## 🎯 Objetivo
+
+Construir uma aplicação capaz de **cadastrar, consultar, atualizar e excluir livros**, utilizando uma API desenvolvida com **FastAPI**, conectada a um banco de dados **MySQL** e consumida posteriormente por uma interface desenvolvida com **HTML, CSS e JavaScript**.
+
+O projeto será desenvolvido em etapas, permitindo acompanhar toda a evolução da aplicação desde sua fundação até sua versão final.
+
+---
+
+## 🧠 O que será aprendido?
 
 Ao concluir o projeto, o aluno deverá ser capaz de:
 
-- Criar rotas utilizando FastAPI;
-- Utilizar os métodos HTTP GET, POST, PUT e DELETE;
-- Conectar uma aplicação Python a um banco de dados MySQL;
-- Utilizar o XAMPP para gerenciamento do ambiente local;
-- Utilizar o phpMyAdmin para administrar o banco de dados;
-- Criar modelos e schemas para organização dos dados;
-- Validar dados recebidos pela API;
-- Tratar erros e respostas HTTP;
-- Construir interfaces utilizando HTML, CSS e JavaScript;
-- Consumir uma API utilizando `fetch`;
-- Utilizar o Source Control do Visual Studio Code;
-- Registrar a evolução do projeto no GitHub;
-- Compreender o funcionamento básico de uma aplicação web integrada a uma API.
+- 🚀 Criar APIs utilizando **FastAPI**;
+- 🔗 Criar e organizar rotas de uma API;
+- 📥 Utilizar o método **GET**;
+- ➕ Utilizar o método **POST**;
+- ✏️ Utilizar o método **PUT**;
+- 🗑️ Utilizar o método **DELETE**;
+- 🐍 Conectar uma aplicação **Python** a um banco **MySQL**;
+- 🖥️ Utilizar o **XAMPP**;
+- 🗄️ Gerenciar bancos de dados utilizando o **phpMyAdmin**;
+- 📦 Criar **modelos e schemas**;
+- ✅ Validar dados recebidos pela API;
+- ⚠️ Tratar erros e respostas HTTP;
+- 🎨 Criar interfaces utilizando **HTML e CSS**;
+- ⚙️ Desenvolver funcionalidades com **JavaScript**;
+- 🔄 Consumir uma API utilizando **fetch**;
+- 🌿 Utilizar o **Source Control do VS Code**;
+- 📌 Utilizar **Git** para controle de versão;
+- ☁️ Registrar a evolução do projeto no **GitHub**.
 
 ---
 
-## Tecnologias Utilizadas
+# 🛠️ Tecnologias
 
-### Backend
+As principais tecnologias utilizadas no projeto serão:
 
-- Python
-- FastAPI
-- Uvicorn
-- Pydantic
+| Tecnologia | Utilização |
+|---|---|
+| 🐍 **Python** | Linguagem principal do Backend |
+| ⚡ **FastAPI** | Criação da API |
+| 🗄️ **MySQL** | Banco de dados |
+| 🖥️ **XAMPP** | Ambiente local |
+| 🔎 **phpMyAdmin** | Gerenciamento do banco de dados |
+| 🌐 **HTML5** | Estrutura da interface |
+| 🎨 **CSS3** | Estilização da interface |
+| ⚙️ **JavaScript** | Interatividade e consumo da API |
+| 🔀 **Git** | Controle de versão |
+| ☁️ **GitHub** | Armazenamento e acompanhamento do projeto |
+| 💻 **Visual Studio Code** | Ambiente de desenvolvimento |
 
-### Banco de Dados
+---
 
-- MySQL
-- XAMPP
-- phpMyAdmin
+# 🗂️ Estrutura das Aulas
 
-### Frontend
+O desenvolvimento do projeto será dividido em **4 etapas principais**.
 
-- HTML5
-- CSS3
-- JavaScript
+Cada etapa representa uma parte da construção da aplicação.
 
+```text
+📚 Projeto de Livros
+│
+├── 📄 README.md
+│
+├── 📘 01-fundacao-fastapi-mysql.md
+│
+├── 📗 02-modelo-post-get.md
+│
+├── 📙 03-put-delete-crud.md
+│
+└── 📕 04-frontend-html-css-js.md
